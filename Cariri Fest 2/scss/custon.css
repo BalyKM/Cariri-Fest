@@ -1,0 +1,17 @@
+/*cor primaria e secundaria do site e ajustes na navbar e h4 */
+.bg-primary {
+    background-color: 
+    rgb(243, 205, 65) !important;
+}
+.bg-secondary {
+     background-color:rgba(231, 126, 61, 0.639) !important;
+}
+/* Ajustes na navbar e h4 */
+.navbar  {
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: rgb(189, 101, 46);
+    line-height: 2.5;
+}
+.h4 {
+    margin-bottom: 0rem !important;
+}
