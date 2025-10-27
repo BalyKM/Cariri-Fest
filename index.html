@@ -49,35 +49,57 @@
   </header>
   <!-- Conteúdo principal da página -->
   <main>
-    <div class="m-5 justify-content-center d-flex ">
-
-      <div id="mainCarousel" class="d-flex carousel slide w-500 shadow-lg rounded-5" style="height:500px;"
-        data-bs-ride="carousel">
-        <!-- Indicators/dots -->
+    <div class="m-5 w-50 mx-auto">
+      <div id="mainCarousel" class="carousel slide shadow-lg rounded-5" data-bs-ride="carousel" style="height:500px;">
+        <!-- botões indicadores na parte de baixo -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
           <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
         </div>
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner rounded-5 ">
-          <div class="carousel-item active d-flex" style="height:500px;">
-            <div class="w-50 ">
-              <img src="img/imagemPadrao.jpg" alt="Los Angeles" class="d-block w-100 rounded" style="object-fit:cover;">
+        <div class="carousel-inner h-100 rounded-5">
+          <!-- Slide 1 -->
+          <div class="carousel-item active h-100">
+            <div class="d-flex h-100">
+              <div class="w-50 h-100">
+                <img src="img/imagemPadrao.jpg" class="d-block w-100 h-100 rounded" style="object-fit:cover;">
+              </div>
+              <div class="w-50 d-flex flex-column justify-content-center text-center bg-secondary">
+                <h5>Slide 1</h5>
+                <p>Descrição do slide 1</p>
+              </div>
             </div>
-            <div class="text-center w-50 bg-secondary d-flex flex-column justify-content-center" style="height:500px;">
-              <h5>Primeiro Slide</h5>
-              <p>Descrição do primeiro slide.</p>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item h-100">
+            <div class="d-flex h-100">
+              <div class="w-50 h-100">
+                <img src="img/imagemPadrao.jpg" class="d-block w-100 h-100 rounded" style="object-fit:cover;">
+              </div>
+              <div class="w-50 d-flex flex-column justify-content-center text-center bg-secondary">
+                <h5>Slide 2</h5>
+                <p>Descrição do slide 2</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/imagemPadrao.jpg" alt="Chicago" class=" d-block ">
+
+          <!-- Slide 3 -->
+          <div class="carousel-item h-100">
+            <div class="d-flex h-100">
+              <div class="w-50 h-100">
+                <img src="img/imagemPadrao.jpg" class="d-block w-100 h-100 rounded" style="object-fit:cover;">
+              </div>
+              <div class="w-50 d-flex flex-column justify-content-center text-center bg-secondary">
+                <h5>Slide 3</h5>
+                <p>Descrição do slide 3</p>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/imagemPadrao.jpg" alt="New York" class=" d-block ">
-          </div>
+
         </div>
-        <!-- Left and right controls/icons -->
+
+        <!-- Controles -->
         <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </button>
